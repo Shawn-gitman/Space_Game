@@ -1,5 +1,5 @@
 # Space Game
- Space Game is developed in interpreted, high-level, general-purpose language, Python IDE. Python is well-known as clear language that is beneficial for programmer to write logical code such as large-scale projects like Space Game. This language is also described as "batteries included" which mean it has comprehensive standard library. Space Game was implemented within multiple libraries such as pygame, os, time and random libraries. This easily readalbe language support English keywords and uses whitespace identiation which strength accuracy of Space Game's semantic structure except using the brackets. For example, common method "continue" statement in line 286 and 353 will skips specific iteration and continues with the next item as it is stated. This program has arithmetic operators such as +, -, *, and % to devise multiple masthematic such as healthbar and object collision identificaiton. 
+ Space Game is developed in interpreted, high-level, general-purpose language, Python IDE. Python is well-known as clear language that is beneficial for programmer to write logical code such as large-scale projects like Space Game. This language is also described as "batteries included" which mean it has comprehensive standard library. Space Game was implemented within multiple libraries such as pygame, os, time and random libraries. This easily readalbe language support English keywords and uses whitespace identiation which strength accuracy of Space Game's semantic structure except using the brackets. For example, common method "continue" statement in line 286 and 353 will skips specific iteration and continues with the next item as it is stated. This program has arithmetic operators such as +, -, *, and % to devise multiple masthematics such as healthbar and object collision identificaiton. 
  
 
 ## Prerequisites
@@ -21,7 +21,7 @@ git checkout master -- path/within/repo/to/file
 
 ## Running the tests
 
-* Run intro.py to see the result of the man shooting bullets. Your score is on the top right screen. You get 1 score by hitting goblin with bullets and subtract score 5 if you are hit by goblins.
+* Run main.py to implement the program moving player ship object. It can controlled by pressing a(left),d(right),w(up),s(down) and space(shoot) key. As the space key is pressed, player ship shoots the lasers to remove enemy object as it is collided. As the enemies are all removed in the stage where player is in, player can step into next level. There are boss rounds as the player reaches to the level multiple of 3. Boss is upsized that are supposed to be the original. It shoots the dual bullet that threat player ship object.
 
 ## Break down into end to end tests
 
